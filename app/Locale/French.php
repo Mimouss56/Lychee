@@ -18,7 +18,7 @@ final class French implements LangInterface
 			'CANCEL' => 'Annuler',
 			'SIGN_IN' => 'Connexion',
 			'CLOSE' => 'Fermer',
-			'SETTINGS' => 'Settings',
+			'SETTINGS' => 'Options',
 			'SEARCH' => 'Rechercher ...',
 			'MORE' => 'Plus',
 
@@ -34,9 +34,9 @@ final class French implements LangInterface
 			'SIGN_OUT' => 'Se déconnecter',
 			'UPDATE_AVAILABLE' => 'Une mise à jour est disponible !',
 			'MIGRATION_AVAILABLE' => 'Une migration disponible !',
-			'DEFAULT_LICENSE' => 'License par defaut pour les nouveaux ajouts:',
-			'SET_LICENSE' => 'Selectioner une license',
-			'SET_OVERLAY_TYPE' => 'Selectioner l\'Overlay',
+			'DEFAULT_LICENSE' => 'License par défaut pour les nouveaux ajouts:',
+			'SET_LICENSE' => 'Sélectioner une license',
+			'SET_OVERLAY_TYPE' => 'Sélectioner l\'Overlay',
 			'SET_MAP_PROVIDER' => 'Set OpenStreetMap tiles provider',
 
 			'SMART_ALBUMS' => 'Albums Intelligents',
@@ -58,7 +58,7 @@ final class French implements LangInterface
 			'ABOUT_ALBUM' => 'À propos de l\'album',
 			'DELETE_ALBUM' => 'Supprimer l\'album',
 			'MOVE_ALBUM' => 'Déplacer l\'album',
-			'FULLSCREEN_ENTER' => 'Enter en plein écran',
+			'FULLSCREEN_ENTER' => 'Entrer en plein écran',
 			'FULLSCREEN_EXIT' => 'Sortir du plein écran',
 
 			'DELETE_ALBUM_QUESTION' => 'Supprimer l\'album et ses photos',
@@ -116,7 +116,7 @@ final class French implements LangInterface
 			'TAGS_ALL' => 'Tagger la sélection',
 			'UNSTAR_PHOTO' => 'Retirer des Favoris',
 
-			'FULL_PHOTO' => 'Open Original',
+			'FULL_PHOTO' => 'Plein écran',
 			'ABOUT_PHOTO' => 'À propos de la photo',
 			'DISPLAY_FULL_MAP' => 'Carte',
 			'DIRECT_LINK' => 'Lien direct',
@@ -177,7 +177,7 @@ final class French implements LangInterface
 			'PHOTO_TITLE' => 'Titre',
 			'PHOTO_NEW_TITLE' => 'Entrer un nouveau titre pour cette photo :',
 			'PHOTO_SET_TITLE' => 'Choisir un titre',
-			'PHOTO_UPLOADED' => 'Uploadé', // Frenglish, but I don't care. Telecharge est ambigu en Francais...
+			'PHOTO_UPLOADED' => 'Chargé', // Frenglish, but I don't care. Telecharge est ambigu en Francais...
 			'PHOTO_DESCRIPTION' => 'Description',
 			'PHOTO_NEW_DESCRIPTION' => 'Entrez une nouvelle description pour cette photo :',
 			'PHOTO_SET_DESCRIPTION' => 'Choisir une description',
@@ -191,7 +191,7 @@ final class French implements LangInterface
 			'PHOTO_LONGITUDE' => 'Longitude',
 			'PHOTO_ALTITUDE' => 'Altitude',
 			'PHOTO_IMGDIRECTION' => 'Direction',
-			'PHOTO_LOCATION' => 'Location',
+			'PHOTO_LOCATION' => 'Localisation',
 			'PHOTO_IMAGE' => 'Image',
 			'PHOTO_VIDEO' => 'Video',
 			'PHOTO_SIZE' => 'Dimension',
@@ -283,7 +283,7 @@ final class French implements LangInterface
 			'LOGIN_TITLE' => 'Entrez un nom d\'utilisateur et un mot de passe pour votre installation :',
 			'LOGIN_USERNAME' => 'Nouvel utilisateur',
 			'LOGIN_PASSWORD' => 'Nouveau Mot de passe',
-			'LOGIN_PASSWORD_CONFIRM' => 'Confirm Password',
+			'LOGIN_PASSWORD_CONFIRM' => 'Confirmation Mot de Passe',
 			'LOGIN_CREATE' => 'Créer les informations de connexion',
 
 			'PASSWORD_TITLE' => 'Entrez votre mot de passe existant :',
@@ -327,8 +327,8 @@ final class French implements LangInterface
 			'DROPBOX_TITLE' => 'Définir une clé Dropbox',
 			'DROPBOX_TEXT' => "Pour pouvoir importer des photos à partir de votre Dropbox, vous aurez besoin d\'une clé d\'application \"drop-ins\" valide à créer sur <a href='https://www.dropbox.com/developers/apps/create'>leur site</a>. Générez votre clé personnelle et puis entrez-la ci-dessous:",
 
-			'LANG_TEXT' => 'Change Lychee language for:',
-			'LANG_TITLE' => 'Change Language',
+			'LANG_TEXT' => 'Changer la langue de Lychee pour:',
+			'LANG_TITLE' => 'Changer Langage',
 			'PUBLIC_SEARCH_TEXT' => 'Recherche publique autorisée:',
 			'IMAGE_OVERLAY_TEXT' => 'Afficher l\'overlay par défaut:',
 			'OVERLAY_TYPE' => 'Informations à utiliser pour l\'overlay:',
@@ -343,7 +343,7 @@ final class French implements LangInterface
 			'MAP_PROVIDER_OSM_DE' => 'OpenStreetMap.de (no HiDPI)',
 			'MAP_PROVIDER_OSM_FR' => 'OpenStreetMap.fr (no HiDPI)',
 			'MAP_PROVIDER_RRZE' => 'University de Erlangen, Allemagne (only HiDPI)',
-			'MAP_INCLUDE_SUBALBUMS_TEXT' => 'Include les photos des sous-albums sur la carte:',
+			'MAP_INCLUDE_SUBALBUMS_TEXT' => 'Inclure les photos des sous-albums sur la carte:',
 			'LOCATION_DECODING' => 'Convertir les informations GPS en nom de localisation',
 			'LOCATION_SHOW' => 'Montrer le nom de la localisation',
 			'LOCATION_SHOW_PUBLIC' => 'Montrer le nom de la localisation en mode public',
@@ -361,8 +361,8 @@ final class French implements LangInterface
 			'NO_TAGS' => 'Aucun tag',
 
 			'UPLOAD_MANAGE_NEW_PHOTOS' => 'Vous pouvez désormais gérer vos nouvelles photos.',
-			'UPLOAD_COMPLETE' => 'Upload terminé',
-			'UPLOAD_COMPLETE_FAILED' => 'L\'Upload d\'une ou plusieurs photos a échoué.',
+			'UPLOAD_COMPLETE' => 'Chargement terminé',
+			'UPLOAD_COMPLETE_FAILED' => 'Le Chargement d\'une ou plusieurs photos a échoué.',
 			'UPLOAD_IMPORTING' => 'Importation',
 			'UPLOAD_IMPORTING_URL' => 'Importation depuis l\'URL',
 			'UPLOAD_UPLOADING' => 'Upload en cours',
