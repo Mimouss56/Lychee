@@ -22,8 +22,8 @@ final class French implements LangInterface
 			'SEARCH' => 'Rechercher ...',
 			'MORE' => 'Plus',
 
-			'USERS' => 'Users',
-			'SHARING' => 'Sharing',
+			'USERS' => 'Utilisateurs',
+			'SHARING' => 'Partages',
 			'CHANGE_LOGIN' => 'Changer le nom d\'utilisateur',
 			'CHANGE_SORTING' => 'Changer le tri',
 			'SET_DROPBOX' => 'Paramétrer Dropbox',
